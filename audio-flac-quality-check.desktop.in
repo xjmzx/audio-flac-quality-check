@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=FLAC Library Browser
+GenericName=Audio Library Quality Browser
+Comment=Browse a FLAC library and detect lossy-source files via spectral analysis
+Exec=python3 @BINDIR@/flac_library_browser.py
+Icon=@ICONDIR@/audio-flac-quality-check.svg
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
+Keywords=flac;audio;lossless;lossy;quality;library;spectral;
+StartupNotify=true
