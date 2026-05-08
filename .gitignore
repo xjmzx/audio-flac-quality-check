@@ -1,0 +1,8 @@
+# Generated reports list every track in the user's library — keep private.
+flac_report.txt
+*.report.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
