@@ -1,5 +1,12 @@
 # audio-flac-quality-check
 
+> **Successor**: a Tauri 2 desktop port lives at
+> [`xjmzx/audio-flac-quality-check-tauri`](https://github.com/xjmzx/audio-flac-quality-check-tauri),
+> matching the rest of the suite's stack (`smpl-tool`, `ndisc`). Same
+> heuristic, same thresholds, plus a mirror-tree workspace and a Nostr
+> audio-feed reader. The Python + Tk version stays here as the reference
+> implementation and remains fully usable.
+
 Scan a FLAC library and flag files whose audio looks like a lossy source
 (MP3, AAC) re-encoded as FLAC. Pure spectral analysis via `ffmpeg`; no
 third-party Python packages.
